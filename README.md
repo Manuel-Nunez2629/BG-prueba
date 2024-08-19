@@ -22,7 +22,7 @@ git init: inicializara un repositorio git en la direccion actual.
 git reset: te permite deshacer cambios sin crear un nuevo commit a diferencia del revert que solo se puede en local 
 este se puede ver en servidor
 
-
+git push: con este comando podemos subir al repositorio remoto en el que estamos trabajando, siempre y cuando lo hayamos clonado inicialmente.
 
 git commit -m "mensaje": captura una instantánea de los cambios preparados en ese momento del proyecto .
 
