@@ -33,6 +33,62 @@ Escribir el comando git diff <archivo> y presionar enter. Esto mostrará las dif
 git status: Sirve para mostrar el estado del repositorio, para identificar archivos modificados y en general para estar informado sobre el estado actual del repositorio
 
 git merge: Sirve para integrar/unificar los cambios realizados en los commits de una rama hacia otra. 
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+###Peticion de Cambio (Pull Request)
+ 
+Que es 
+
+Un Pull Request es una función de GitHub que permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de fusionarlos en la rama principal de desarrollo, denominada “master” o “main”.  
+
+Funcionamiento
+1. Usuario 1 realiza cambios en el archivo base en su repositorio local
+2. Hace push a su branch
+3. Solicita una Peticion de Cambio
+4. El equipo verifica el codigo
+5. Se hace merge
+--------------------------------------------------------------------------------------------------------------------
+
+Cómo hacer un pull request
+Un PR es un proceso crucial para facilitar la revisión y la integración efectiva del código.
+1. Crea una rama paralela: Antes de hacer cambios en el código, utiliza el comando git checkout -b <rama> 
+para crear una nueva rama. Así, podrás hacer tus modificaciones sin afectar la rama principal (por ejemplo, master).
+
+2. Realiza commits: Después de hacer cambios en los archivos, usa git commit -am '<Comentario>' 
+para hacer un commit con un mensaje descriptivo.
+
+3. Sube los cambios: Usa git push origin <rama> para subir tus cambios de la rama local al repositorio remoto. 
+Reemplaza <rama> con el nombre de tu rama.
+
+4. Crea un pull request: En el repositorio remoto (como GitHub), crea un nuevo pull request. 
+Selecciona la rama principal como destino y tu rama con los cambios como comparación.
+
+5. Feedback: Los revisores examinarán los cambios. Usa la sección de comentarios del pull request 
+para discutir los cambios y proporcionar feedback adicional.
+
+6. Realiza los cambios solicitados: Si se solicitan cambios, regresa a tu rama local y haz las 
+modificaciones necesarias. Luego, sube los cambios al repositorio remoto usando git push origin <rama
+                                                                                                      
+¿Como corregir un Pull Request?
+
+
+Al revisar un pull request, es posible encontrar problemas o áreas que necesiten corrección antes de que los cambios se puedan unir con la rama principal. Aquí se explica cómo corregir un pull request de forma efectiva.
+
+1. Lee los comentarios y feedback
+
+2. Regresa a tu rama local: Utiliza el comando git checkout <rama> para volver a la rama en la que realizaste los cambios y necesitas revisar.
+
+3. Realiza las modificaciones
+
+4. Realiza un nuevo commit: Después de efectuar las correcciones, utiliza el comando git commit -am '<Comentario>'
+
+5. Sube los cambios al repositorio remoto: Utiliza el comando git push origin <rama>
+
+6. Actualiza el pull request
+                                                                                                      
+
 ## Merge y resolucion de conflitos
 ### **¿Cómo **resolver conflictos** de fusión en **Git**?**
 
@@ -45,3 +101,4 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 4.  Usa "**git** commit -m 'su mensaje de confirmación aquí'" comprometerse.
 
 El merge se puede hacer de forma automática o manual. Si Git detecta que los cambios en las dos ramas no interfieren entre sí. 
+
