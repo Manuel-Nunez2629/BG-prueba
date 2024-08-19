@@ -1,5 +1,5 @@
 
-
+Hola Siempre Listos
 
 GIT ALL <NOMBRE DE ARCHIVO>: Escribir el comando git add <archivo> para agregar los cambios de un archivo especifo al staging
 
@@ -12,7 +12,7 @@ git revert <ID del commit>  esto creara un nuevo commit que deshace los cambios 
 
 git branch: enumera tus sucursales. Aparecerá un * junto a la rama actualmente activa.
 
-
+git Checkout <Nombre de la rama> Poder llegar hasta el id de la rama que se coloque.
 
 git init: inicializara un repositorio git en la direccion actual.
 
