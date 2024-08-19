@@ -46,3 +46,16 @@ Adriana:
 ***
 Daniel
 ***
+Aparece la rama iss53 porque ya ha sido fusionada. Las ramas que no llevan por delante el carácter * pueden ser eliminadas sin problemas, porque todo su contenido ya ha sido incorporado a otras ramas.
+
+Para mostrar todas las ramas que contienen trabajos sin fusionar, puedes utilizar el comando git branch --no-merged:
+
+$ git branch --no-merged
+  testing
+Esto nos muestra la otra rama del proyecto. Debido a que contiene trabajos sin fusionar, al intentar borrarla con git branch -d, el comando nos dará un error:
+
+$ git branch -d testing
+error: The branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'.
+Si realmente deseas borrar la rama y perder el trabajo contenido en ella, puedes forzar el borrado con la opción -D; tal y como indica el mensaje de ayuda.
+
