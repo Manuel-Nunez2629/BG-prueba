@@ -34,6 +34,30 @@ git status: Sirve para mostrar el estado del repositorio, para identificar archi
 
 git merge: Sirve para integrar/unificar los cambios realizados en los commits de una rama hacia otra. 
 
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+¿Como corregir un Pull Request?
+
+
+Al revisar un pull request, es posible encontrar problemas o áreas que necesiten corrección antes de que los cambios se puedan unir con la rama principal. Aquí se explica cómo corregir un pull request de forma efectiva.
+
+1. Lee los comentarios y feedback
+
+2. Regresa a tu rama local: Utiliza el comando git checkout <rama> para volver a la rama en la que realizaste los cambios y necesitas revisar.
+
+3. Realiza las modificaciones
+
+4. Realiza un nuevo commit: Después de efectuar las correcciones, utiliza el comando git commit -am '<Comentario>'
+
+5. Sube los cambios al repositorio remoto: Utiliza el comando git push origin <rama>
+
+6. Actualiza el pull request
+
+
+
 ###Peticion de Cambio (Pull Request)
 
 Funcionamiento
@@ -42,3 +66,4 @@ Funcionamiento
 3. Solicita una Peticion de Cambio
 4. El equipo verifica el codigo
 5. Se hace merge
+
