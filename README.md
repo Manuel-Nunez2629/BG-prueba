@@ -37,6 +37,9 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 ### **¿Cómo **resolver conflictos** de fusión en **Git**?**
 
 1.  Abra el archivo en su editor de texto preferido.
+
 2.  Identificar los cambios que causan el **conflicto** y hacer los cambios necesarios.
+
 3.  Use "**git** add conflict. txt" para organizar el archivo.
+
 4.  Usa "**git** commit -m 'su mensaje de confirmación aquí'" comprometerse.
