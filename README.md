@@ -12,6 +12,12 @@ git branch: enumera tus sucursales. Aparecerá un * junto a la rama actualmente 
 
 git reset: te permite deshacer cambios sin crear un nuevo commit a diferencia del revert que solo se puede en local 
 este se puede ver en servidor
+
+
+
+git commit -m "mensaje": captura una instantánea de los cambios preparados en ese momento del proyecto .
+
 git commit --amend: Se utiliza para modificar el ultimo commit, te permite añadir archivos o cambiar el texto del commit
 ### Git Diff
 Escribir el comando git diff <archivo> y presionar enter. Esto mostrará las diferencias del archivo.
+
