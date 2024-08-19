@@ -43,3 +43,5 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 3.  Use "**git** add conflict. txt" para organizar el archivo.
 
 4.  Usa "**git** commit -m 'su mensaje de confirmación aquí'" comprometerse.
+
+El merge se puede hacer de forma automática o manual. Si Git detecta que los cambios en las dos ramas no interfieren entre sí. 
