@@ -7,7 +7,6 @@ git diff hash archivo: compara el archivo actual con el archivo referenciado con
 git add: Sirve para agregar todos los cambios realizados en el directorio  donde uno se encuentra al staging.
 git add . : ara agregar todos los archivos del directorio actual.
 
-
 git revert <ID del commit>  esto creara un nuevo commit que deshace los cambios realizados en el commit anterior .
 
 git branch: enumera tus sucursales. Aparecerá un * junto a la rama actualmente activa.
@@ -15,9 +14,6 @@ git branch: enumera tus sucursales. Aparecerá un * junto a la rama actualmente 
 git Checkout <Nombre de la rama> Poder llegar hasta el id de la rama que se coloque.
 
 git init: inicializara un repositorio git en la direccion actual.
-
-
-
 
 git reset: te permite deshacer cambios sin crear un nuevo commit a diferencia del revert que solo se puede en local 
 este se puede ver en servidor
@@ -33,3 +29,16 @@ Escribir el comando git diff <archivo> y presionar enter. Esto mostrará las dif
 git status: Sirve para mostrar el estado del repositorio, para identificar archivos modificados y en general para estar informado sobre el estado actual del repositorio
 
 git merge: Sirve para integrar/unificar los cambios realizados en los commits de una rama hacia otra. 
+
+
+
+
+
+
+
+
+
+
+#*Forks*
+![alt text](https://s3.ap-south-1.amazonaws.com/s3.studytonight.com/tutorials/uploads/pictures/1625217336-103268.png "git Forks") 
+
