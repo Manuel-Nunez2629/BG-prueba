@@ -50,6 +50,20 @@ $ git branch
 ***
 Adriana:
 ***
+Fijate en el carácter * delante de la rama master: nos indica la rama activa en este momento (la rama a la que apunta HEAD). 
+Si hacemos una confirmación de cambios (commit), esa será la rama que avance. Para ver la última confirmación de cambios en cada rama, 
+puedes usar el comando git branch -v:
+
+$ git branch -v
+  iss53   93b412c fix javascript issue
+* master  7a98805 Merge branch 'iss53'
+  testing 782fd34 add scott to the author list in the readmes
+Otra opción útil para averiguar el estado de las ramas, es filtrarlas y mostrar solo aquellas que han sido fusionadas (o que no lo han sido) con la rama actualmente activa. Para ello, Git dispone de las opciones --merged y --no-merged. 
+Si deseas ver las ramas que han sido fusionadas con la rama activa, puedes lanzar el comando git branch --merged:
+
+$ git branch --merged
+  iss53
+* master
 
 ***
 Daniel
