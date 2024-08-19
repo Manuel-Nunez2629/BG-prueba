@@ -13,4 +13,5 @@ git revert <ID del commit>  esto creara un nuevo commit que deshace los cambios 
 git reset: te permite deshacer cambios sin crear un nuevo commit a diferencia del revert que solo se puede en local 
 este se puede ver en servidor
 git commit --amend: Se utiliza para modificar el ultimo commit, te permite añadir archivos o cambiar el texto del commit
-
+### Git Diff
+Escribir el comando git diff <archivo> y presionar enter. Esto mostrará las diferencias del archivo.
