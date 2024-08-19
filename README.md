@@ -1,7 +1,7 @@
 git diff hash archivo: compara el archivo actual con el archivo referenciado con el hash
 git add: Sirve para agregar todos los cambios realizados en el directorio  donde uno se encuentra al staging.
 git add . : ara agregar todos los archivos del directorio actual.
-
+git branch: enumera tus sucursales. Aparecerá un * junto a la rama actualmente activa.
 
 
 
