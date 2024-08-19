@@ -1,11 +1,20 @@
 
 
+
 GIT ALL <NOMBRE DE ARCHIVO>: Escribir el comando git add <archivo> para agregar los cambios de un archivo especifo al staging
 
 git diff hash archivo: compara el archivo actual con el archivo referenciado con el hash
 git add: Sirve para agregar todos los cambios realizados en el directorio  donde uno se encuentra al staging.
 git add . : ara agregar todos los archivos del directorio actual.
+
+
+git revert <ID del commit>  esto creara un nuevo commit que deshace los cambios realizados en el commit anterior .
+
 git branch: enumera tus sucursales. Aparecerá un * junto a la rama actualmente activa.
+
+
+
+git init: inicializara un repositorio git en la direccion actual.
 
 
 
