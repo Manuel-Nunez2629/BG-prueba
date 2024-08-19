@@ -33,3 +33,16 @@ Escribir el comando git diff <archivo> y presionar enter. Esto mostrará las dif
 git status: Sirve para mostrar el estado del repositorio, para identificar archivos modificados y en general para estar informado sobre el estado actual del repositorio
 
 git merge: Sirve para integrar/unificar los cambios realizados en los commits de una rama hacia otra. 
+
+Gestion de Ramas:
+***
+Mark
+***
+
+***
+Adriana:
+***
+
+***
+Daniel
+***
