@@ -39,6 +39,6 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 
 
 
-#*Forks*
+#Forks
 ![alt text](https://s3.ap-south-1.amazonaws.com/s3.studytonight.com/tutorials/uploads/pictures/1625217336-103268.png "git Forks") 
 
