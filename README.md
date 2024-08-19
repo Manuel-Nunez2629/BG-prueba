@@ -36,7 +36,15 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 
 Gestion de Ramas:
 ***
-Mark
+Mark:
+Ahora que ya has creado, fusionado y borrado algunas ramas, vamos a dar un vistazo a algunas herramientas de gestión muy útiles cuando comienzas a utilizar ramas de manera avanzada.
+
+El comando git branch tiene más funciones que las de crear y borrar ramas. Si lo lanzas sin parámetros, obtienes una lista de las ramas presentes en tu proyecto:
+
+$ git branch
+  iss53
+* master
+  testing
 ***
 
 ***
