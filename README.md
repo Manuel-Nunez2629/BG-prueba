@@ -66,4 +66,7 @@ Funcionamiento
 3. Solicita una Peticion de Cambio
 4. El equipo verifica el codigo
 5. Se hace merge
+Que es 
+
+Un Pull Request es una función de GitHub que permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de fusionarlos en la rama principal de desarrollo, denominada “master” o “main”.
 
