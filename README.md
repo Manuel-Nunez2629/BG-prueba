@@ -36,11 +36,11 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 
 
 
-
 -----------------------------------------------------------------------------------------------------------------------
 
 
 ¿Como corregir un Pull Request?
+
 
 Al revisar un pull request, es posible encontrar problemas o áreas que necesiten corrección antes de que los cambios se puedan unir con la rama principal. Aquí se explica cómo corregir un pull request de forma efectiva.
 
@@ -55,3 +55,15 @@ Al revisar un pull request, es posible encontrar problemas o áreas que necesite
 5. Sube los cambios al repositorio remoto: Utiliza el comando git push origin <rama>
 
 6. Actualiza el pull request
+
+
+
+###Peticion de Cambio (Pull Request)
+
+Funcionamiento
+1. Usuario 1 realiza cambios en el archivo base en su repositorio local
+2. Hace push a su branch
+3. Solicita una Peticion de Cambio
+4. El equipo verifica el codigo
+5. Se hace merge
+
