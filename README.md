@@ -70,3 +70,28 @@ Que es
 
 Un Pull Request es una función de GitHub que permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de fusionarlos en la rama principal de desarrollo, denominada “master” o “main”.
 
+<<<<<<< HEAD
+--------------------------------------------------------------------------------------------------------------------
+
+parte Daniel:
+
+Cómo hacer un pull request
+Un PR es un proceso crucial para facilitar la revisión y la integración efectiva del código.
+1. Crea una rama paralela: Antes de hacer cambios en el código, utiliza el comando git checkout -b <rama> 
+para crear una nueva rama. Así, podrás hacer tus modificaciones sin afectar la rama principal (por ejemplo, master).
+
+2. Realiza commits: Después de hacer cambios en los archivos, usa git commit -am '<Comentario>' 
+para hacer un commit con un mensaje descriptivo.
+
+3. Sube los cambios: Usa git push origin <rama> para subir tus cambios de la rama local al repositorio remoto. 
+Reemplaza <rama> con el nombre de tu rama.
+
+4. Crea un pull request: En el repositorio remoto (como GitHub), crea un nuevo pull request. 
+Selecciona la rama principal como destino y tu rama con los cambios como comparación.
+
+5. Feedback: Los revisores examinarán los cambios. Usa la sección de comentarios del pull request 
+para discutir los cambios y proporcionar feedback adicional.
+
+6. Realiza los cambios solicitados: Si se solicitan cambios, regresa a tu rama local y haz las 
+modificaciones necesarias. Luego, sube los cambios al repositorio remoto usando git push origin <rama>.
+
