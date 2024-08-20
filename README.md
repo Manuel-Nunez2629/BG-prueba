@@ -45,4 +45,5 @@ git merge: Sirve para integrar/unificar los cambios realizados en los commits de
 4.  Usa "**git** commit -m 'su mensaje de confirmación aquí'" comprometerse.
 
 El merge se puede hacer de forma automática o manual. Si Git detecta que los cambios en las dos ramas no interfieren entre sí. 
-el comando git merge tiene como responsabilidad principal combinar ramas separadas y resolver cualquier edicion de conflictos.
+
+El comando git merge tiene como responsabilidad principal combinar ramas separadas y resolver cualquier edicion de conflictos.
